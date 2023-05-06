@@ -1,3 +1,3 @@
 package com.taranovegor91.aston1
 
-data class Modelka(val id:Int,val firstName:String,val lastName: String):EntityVariant()
+data class Modelka(var id:Int,var firstName:String,var lastName: String):EntityVariant()
